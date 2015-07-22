@@ -6,6 +6,7 @@ Vagrant.configure("2") do |config|
   	edorasone.vm.synced_folder "logs", "/vagrant/logs", create: true
   	edorasone.vm.synced_folder "license", "/vagrant/license", create: true
   	edorasone.vm.synced_folder "data", "/vagrant/data", create: true
+  	edorasone.vm.network "forwarded_port", guest: 8080, host: 8080
   	
   	edorasone.vm.provider "virtualbox" do |v|
   		v.memory = 2048

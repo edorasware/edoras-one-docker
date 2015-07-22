@@ -1,7 +1,7 @@
 # edoras-one-docker
 
-- Add the edoras one .war file to ./deploy
-- Add the license file to ./license
+- Add the edoras one .war file to ./deploy (file name is irrelevant)
+- Add the .license file to ./license
 
 - Windows/OSX (needs Vagrant, Virtualbox, etc.): start with:
 ```Shell
